@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb/base",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jquery": true,
+    "node": true
+  },
+  "globals": {
+    "$": "readonly",
+    "jQuery": "readonly"
+  },
+  "plugins": ["pug"],
+  "rules": {
+    "import/no-unresolved": "off"
+  }
+}
+

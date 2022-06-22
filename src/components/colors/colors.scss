@@ -1,0 +1,31 @@
+.colors {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.25rem;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    column-gap: 2.5rem;
+  }
+
+  &__square {
+    width: 4.375rem;
+    height: 4.375rem;
+    border-radius: 0.375rem;
+  }
+
+  &__descr {
+    display: flex;
+    flex-direction: column;
+    color: green;
+    line-height: 1.473;
+  }
+
+  &__title {
+  }
+
+  &__subtitle {
+    font-weight: 400;
+  }
+}
